@@ -44,7 +44,6 @@ body{
  
     width: 40%;
     height: 70%;
-    /* padding: 30px;  */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,7 +72,6 @@ body{
 
 .container .right{
 
-    /* background-color: rgb(43, 32, 184); */
     width: 40%;
     height: 80%;
     display: flex;
@@ -88,7 +86,6 @@ body{
 
 .container .right .registration{
 
-  /* text-align: center; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -177,9 +174,7 @@ body{
   background-color: #ec2f00;
   border-radius: 10px;
   padding: 1px;
-  /* position: absolute;
-  top: 134px;
-  right: 64px; */
+
 }
 
 
@@ -202,7 +197,7 @@ body{
 }
 
 
-@media (max-width: 780px){
+@media (max-width: 1022px){
 
 
 
@@ -221,29 +216,37 @@ body{
 
   .container .left h1{
 
-    font-size: 20px;
+    font-size: 2em;
+       text-align: center;
+
   }
 
 
 
 
 
-  .container .left h1 , p{
+  .container .left  p{
 
     text-align: center;
+  
+    font-weight: 700;
 
   }
+  
 
   .container .left {
 
-    height: 40%;
-    width: 50%;
+    height: 35%;
+    width: 80%;
 
   }
+
+
+
   .container .right{
 
     height: 50%;
-    width: 50%;
+    width: 80%;
     gap: 0.5rem;
 
    
