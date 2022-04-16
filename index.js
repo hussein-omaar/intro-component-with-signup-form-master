@@ -84,7 +84,7 @@ if (fInput.value == "" ){
 
     password.appendChild(passwordSpan).textContent= "Password Cannot Be Empty";
     error4.innerHTML = passwordSpan.textContent;
-
+    password.classList.add('border');
     
 
 
