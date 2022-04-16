@@ -58,6 +58,7 @@ body{
     color : #FBFDFC;
     font-weight: 700;
     font-size: 50px;
+    width: 100%;
  
 
 }
@@ -217,7 +218,7 @@ body{
   .container .left h1{
 
     font-size: 2em;
-       text-align: center;
+    text-align: center;
 
   }
 
