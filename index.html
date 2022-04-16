@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">  <title>Frontend Mentor | Intro component with sign up form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,7 +16,58 @@
 </head>
 <body>
 
-  Learn to code by watching others
+
+  <div class="container">
+    
+
+    <div class="left">
+
+      <h1>Learn to code by watching others
+      </h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+
+    </div>
+
+    <div class="right">
+      <button class="offer" >Try it free 7 days  <em> then $20/mo. thereafter</em> 
+
+      </button>
+
+      <!-- <div class="registration">
+     
+
+       
+
+      </div> -->
+
+
+      <form class="registration">
+
+        <input class="f-input" type="text" placeholder="First Name">
+        <span class="error-1"></span>
+        <input class="l-input" type="text" placeholder="Last Name">
+        <span class="error-2"></span>
+        <input class="email" type="email" placeholder="Email Address">
+        <span class="error-3"></span>
+        <input class="password" type="password" placeholder="passowrd" >
+        <span class="error-4"></span>
+        <button class="trial-button" >Claim your free trial </button>
+        <div class="terms">
+          <h1>By clicking the button, you are agreeing to our   <span>Terms and Services</span></h1>
+        </div>
+
+
+      </form>
+
+    </div>
+  </div>
+
+
+
+  <script src="index.js"></script>
+
+  <!-- Learn to code by watching others
 
   See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
   but understanding how developers think is invaluable. 
@@ -37,6 +88,6 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>

@@ -1,0 +1,289 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+*{
+
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    
+    
+}
+
+.container{
+
+
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+        
+
+}
+
+
+
+.container .left{
+
+ 
+    width: 40%;
+    height: 70%;
+    /* padding: 30px;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+
+.container .left h1{
+
+    color : #FBFDFC;
+    font-weight: 700;
+    font-size: 50px;
+ 
+
+}
+
+.container .left p{
+
+    font-size: 16px;
+    color: #FFC8CD;
+
+}
+
+
+.container .right{
+
+    /* background-color: rgb(43, 32, 184); */
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+
+    
+}
+
+
+
+.container .right .registration{
+
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap: 0.3rem;
+  width: 100%;
+  height: 80%;
+  background-color : white;
+  position: relative;
+
+
+}
+
+
+
+
+
+
+.container .right .registration input {
+
+    padding: 10px;
+    width: 80%;
+
+    border: 1px solid  hsl(246, 25%, 77%);
+    outline: none;
+    border-radius: 5px;
+  
+}
+
+
+.container .right .registration button{
+
+    padding: 10px;
+    width: 80%;
+    background-color: #37CC8A;
+    color: #FFFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.container .right .offer{
+
+
+    width: 100%;
+    height: 10%;
+    background-color: hsl(248, 32%, 49%);
+    color: #FFFBFE;
+    font-size: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  
+}
+
+
+.container .right .offer em{
+    color: #bfbdc2;
+    font-size: 10px;
+}
+
+
+
+
+.container .right  .registration .terms{
+
+    width: 80%;
+}
+.container .right  .registration .terms h1{
+
+    font-size: 10px;
+    color: #9c9a9e;
+}
+
+.container .right  .registration .terms span{
+
+    font-size: 7px;
+    color: #ec2f00;
+}
+
+.container .right  .registration .bi{
+
+
+  color: #fffd;
+  background-color: #ec2f00;
+  border-radius: 10px;
+  padding: 1px;
+  /* position: absolute;
+  top: 134px;
+  right: 64px; */
+}
+
+
+ .registration .error-1 , .error-2 , .error-3 , .error-4{
+
+
+  width: 80%;
+  direction: rtl;
+  font-size: 10px;
+  color: #ec2f00;
+
+}
+
+
+
+.container .right  .registration .border{
+
+
+  border: 1px solid red;
+}
+
+
+@media (max-width: 780px){
+
+
+
+
+  .container{
+
+   
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+  }
+
+  .container .left h1{
+
+    font-size: 20px;
+  }
+
+
+
+
+
+  .container .left h1 , p{
+
+    text-align: center;
+
+  }
+
+  .container .left {
+
+    height: 40%;
+    width: 50%;
+
+  }
+  .container .right{
+
+    height: 50%;
+    width: 50%;
+    gap: 0.5rem;
+
+   
+  }
+
+  .container .right .offer {
+
+    padding: 15px;
+    height: 15%;
+    border-radius: 5px ;
+
+
+
+   
+  }
+
+
+
+  .container .right .registration{
+
+
+
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    padding-top: 20px;
+
+
+
+  }
+
+  .container .right .registration input{
+
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #808080;
+    outline: none;
+
+  }
+
+
+
+}
